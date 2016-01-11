@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YLTabBarController : UITabBarController
+@interface YLTabBarController : UITabBarController 
 
 @end
