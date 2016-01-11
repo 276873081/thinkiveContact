@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="YLContact" representedClassName="YLContact" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="department" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faxnoc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hireDay" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="jobName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phonec" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pinyinHead" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pinyinInitial" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pinyinName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qq" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salutation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seniorityDay" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="YLContact" positionX="-63" positionY="-18" width="128" height="315"/>
+    </elements>
+</model>

@@ -1,0 +1,19 @@
+//
+//  ThinkiveMobilePhone.pch
+//  ThinkiveMobilePhone
+//
+//  Created by kill on 15/12/30.
+//  Copyright © 2015年 kill. All rights reserved.
+//
+
+#ifndef ThinkiveMobilePhone_pch
+#define ThinkiveMobilePhone_pch
+
+#define IOS6Plus [UIDevice currentDevice].systemVersion.intValue > 6
+#define YLDocumentPath NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0]
+#define YLTopBarHeight 44
+#define YLStatusBarHeight 20
+#define YLBottomBarHeight 48
+#define baseUrl @"http://218.17.161.51:32821"
+#define pgyAppKey @"cff8032755a61f77e373f612671d005b"
+#endif /* ThinkiveMobilePhone_pch */
